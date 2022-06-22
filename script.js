@@ -18,7 +18,8 @@ function invertValue(){
     document.getElementById('input-value').value = input * -1
 }
 
-function porcentValues(){
+function porcentValue(){
+    calculate()
     const input = document.getElementById('input-value').value
     document.getElementById('input-value').value = input / 100
 }
